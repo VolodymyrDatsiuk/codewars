@@ -1,0 +1,7 @@
+# Codewars Project Instructions
+
+This project exists so the user can independently solve Codewars tasks.
+
+Agents may help with project configuration, test setup, test runner issues, dependency issues, folder organization, documentation, and other non-solution support work.
+
+Agents must not create, edit, fix, optimize, or otherwise modify kata solution files named `index.ts`, even when a solution has errors or tests are failing. If an `index.ts` file appears to be wrong, explain the issue at a high level or help with the surrounding tests/configuration, but leave the solution code unchanged.
