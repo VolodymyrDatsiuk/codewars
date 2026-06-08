@@ -1,8 +1,7 @@
 export function getSum(a: number, b: number): number {
   if (a === b) return a;
 
-  const firstTerm = Math.min(a, b);
-  const lastTerm = firstTerm === a ? b : a;
+  const [firstTerm, lastTerm] = [Math.min(a, b), Math.max(a, b)];
 
   return arithmeticSum(firstTerm, lastTerm - firstTerm + 1);
 }

@@ -10,4 +10,8 @@ describe("getSum", () => {
   it("Negatives Tests", () => {
     assert.strictEqual(getSum(-143, -23), -10043);
   });
+
+  it("Huge numbers", () => {
+    assert.strictEqual(getSum(-1430000000, 23354252535), 271688105745239080000);
+  });
 });
